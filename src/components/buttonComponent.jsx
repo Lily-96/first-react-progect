@@ -1,7 +1,7 @@
 const buttonComponent = function (props) {
   console.log("PROPS", props);
   return (
-    <button className="button-component">
+    <button>
       <span>{props.content}</span>
     </button>
   );

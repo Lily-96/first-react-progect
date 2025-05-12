@@ -6,7 +6,7 @@ class Immagin extends Component {
 
     return (
       <div className="immagin">
-        <img src={this.props.imageSrc} alt="logo vite" width={300} />
+        <img src={this.props.imageSrc} alt="fiore" width={300} />
       </div>
     );
   }
